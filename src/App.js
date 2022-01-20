@@ -1,12 +1,13 @@
 /* eslint-disable react/react-in-jsx-scope */
-
+import HeaderNav from './components/headers/HeaderNav';
+import './index.css';
 
 const App = () => {
-	return (
-		<div>
-			<h1> My Porforlio project</h1>
-		</div>
-	)
-}
+    return (
+        <>
+            <HeaderNav />
+        </>
+    );
+};
 
-export default App
+export default App;
